@@ -1,8 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
 export default defineConfig({
-base: "/todo-list-react/",
-plugins: [react()],
+  plugins: [react()],
+  base: "/todo-list-react/", // GitHub repo name
 });
